@@ -27,6 +27,7 @@
 	- [Embedded systems](#embedded-systems)
 - [Safety and security](#safety-and-security)
 	- [Memory safety](#memory-safety)
+	- [Control flow integrity](#control-flow-integrity)
 	- [Safe integers](#safe-integers)
 - [Working with existing code and legacy systems](#working-with-existing-code-and-legacy-systems)
 - [Overview of patterns and idioms](#overview-of-patterns-and-idioms)
@@ -262,6 +263,7 @@
 
 :link:
 
+- V.Falco. [*The span reflex: When concrete thinking blocks compositional design*](https://www.vinniefalco.com/p/the-span-reflex-when-concrete-thinking) (2026)
 - J.M&uuml;ller. [*`malloc()` and `free()` are a bad API*](https://www.foonathan.net/2022/08/malloc-interface/) (2022)
 - J.M&uuml;ller. [*`saturating_add` vs. `saturating_int` – new function vs. new type?*](https://www.foonathan.net/2022/03/behavior-function-type/) (2022)
 - A.Mertz. [*`isValid()`? Establish invariants and avoid zombie objects*](https://arne-mertz.de/2021/09/isvalid-establish-invariants-avoid-zombies/) (2021)
@@ -467,6 +469,12 @@ For exceptions in destructors, see [*Destructors*](#destructors).
 :page_facing_up:
 
 - K.Serebryany, E.Stepanov, A.Shlyapnikov, V.Tsyrklevich, D.Vyukov. [*Memory tagging and how it improves C/C++ memory safety*](https://arxiv.org/pdf/1802.09517.pdf) – Preprint (2018)
+
+### Control flow integrity
+
+:movie_camera:
+
+- J.McNellis. [*A little introduction to control flow integrity*](https://www.youtube.com/watch?v=_eX7AVB4qzM) – Meeting C++ (2025)
 
 ### Safe integers
 
@@ -895,6 +903,10 @@ See also [*Iterators* – The standard library and proposals](std_library.md#ite
 
 ### Observer
 
+:movie_camera:
+
+- V.Ciura. [*Spooky action at a distance*](https://www.youtube.com/watch?v=nuEAppQunm0) – CppCon (2021)
+
 <!-- :link: -->
 
 <!-- WRONG? - M.Wilson. [*QM bites: Looping for-ever*](https://accu.org/journals/overload/24/132/wilson_2227/) – [Overload **132**](https://accu.org/journals/overload/overload132) (2016) -->
@@ -1185,6 +1197,7 @@ See also [*Monads* – Functional programming – General reviews and interviews
 
 :movie_camera:
 
+- R.Schimkowitsch. [*Monadic Operations in C++23*](https://www.youtube.com/watch?v=lEDQJgaROlE) – Meeting C++ (2025)
 - G.Koyrushki, A.Fisher. [*Monads in modern C++*](https://www.youtube.com/watch?v=kZ8rbhGgtv4) – CppCon (2023)
 
 ---

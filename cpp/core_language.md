@@ -130,30 +130,6 @@
 
 ## Introduction and overview
 
-:link:
-
-- K.Henney. [*C++ – an invisible foundation of everything*](https://accu.org/journals/overload/29/161/stroustrup/) – [Overload **161**](https://accu.org/journals/overload/overload161) (2021)
-
-:grey_question:
-
-- [*The definitive C++ book guide and list*](https://stackoverflow.com/q/388242) – Stack Overflow
-
-:movie_camera:
-
-- W.E.Brown. [*What I think when I think about C++*](https://www.youtube.com/watch?v=bgyY3x8y4PE) – Core C++ (2022)
-- V.Ciura. [*C++ mythbusters*](https://www.youtube.com/watch?v=Ue836lVgPtk) – Meeting C++ (2022)
-- H.Sutter. [*Quantifying accidental complexity: An empirical look at teaching and using C++*](https://www.youtube.com/watch?v=6lurOCdaj0Y) – CppCon (2020)
-- C.Carruth, T.Winters. [*What is C++*](https://www.youtube.com/watch?v=LJh5QCV4wDg) – CppCon (2019)
-
-:anchor:
-
-- [*Standard C++*](https://isocpp.org/)
-- [*The C++ standards committee*](http://www.open-std.org/jtc1/sc22/wg21/)
-- [*C++ standards committee papers*](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/)
-- [*C++ standard core language closed issues*](http://www.open-std.org/jtc1/sc22/wg21/docs/cwg_closed.html)
-- [*C++ standard draft sources*](https://github.com/cplusplus/draft)
-- C.Carruth et al. [*Goals and priorities for C++*](https://wg21.link/p2137) – WG21/P2137
-
 ### Abstract machine
 
 :grey_question:
@@ -406,6 +382,8 @@ See also [*Layout* – Class types](#layout).
 
 :movie_camera:
 
+- M.Svetkin. [*Harnessing `constexpr`: A path to safer C++*](https://www.youtube.com/watch?v=2WDPizKCaZo) – Meeting C++ (2025)
+- J.Turner. [*Understanding The `constexpr` 2-Step*](https://www.youtube.com/watch?v=2WDPizKCaZo) – C++ on Sea (2024)
 - S.Schurr. *`constexpr`:* [*Introduction*](https://www.youtube.com/watch?v=fZjYCQ8dzTc), [*Applications*](https://www.youtube.com/watch?v=qO-9yiAOQqc) – CppCon (2015)
 
 :anchor:

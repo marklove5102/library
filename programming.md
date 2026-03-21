@@ -8,6 +8,7 @@
   - [BASIC](#basic)
   - [B](#b)
   - [C](#c)
+  - [C++](#c-1)
   - [Pascal](#pascal)
 - [Procedural programming](#procedural-programming)
 - [Functional programming](#functional-programming)
@@ -80,6 +81,33 @@
 
 - B.Kernighan. [*C programming language*](https://www.youtube.com/watch?v=de2Hsvxaf8M) – Computerphile
 - D.Brailsford. [*Why C is so influential*](https://www.youtube.com/watch?v=ci1PJexnfNE) - Computerphile
+
+### C++
+
+:link:
+
+- K.Henney. [*C++ – an invisible foundation of everything*](https://accu.org/journals/overload/29/161/stroustrup/) – [Overload **161**](https://accu.org/journals/overload/overload161) (2021)
+
+:grey_question:
+
+- [*The definitive C++ book guide and list*](https://stackoverflow.com/q/388242) – Stack Overflow
+
+:movie_camera:
+
+- B.Stroustrup. [*The essence of C++*](https://www.youtube.com/watch?v=ZXc_z1sNbfA) – code::dive (2024)
+- W.E.Brown. [*What I think when I think about C++*](https://www.youtube.com/watch?v=bgyY3x8y4PE) – Core C++ (2022)
+- V.Ciura. [*C++ mythbusters*](https://www.youtube.com/watch?v=Ue836lVgPtk) – Meeting C++ (2022)
+- H.Sutter. [*Quantifying accidental complexity: An empirical look at teaching and using C++*](https://www.youtube.com/watch?v=6lurOCdaj0Y) – CppCon (2020)
+- C.Carruth, T.Winters. [*What is C++*](https://www.youtube.com/watch?v=LJh5QCV4wDg) – CppCon (2019)
+
+:anchor:
+
+- [*Standard C++*](https://isocpp.org/)
+- [*The C++ standards committee*](http://www.open-std.org/jtc1/sc22/wg21/)
+- [*C++ standards committee papers*](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/)
+- [*C++ standard core language closed issues*](http://www.open-std.org/jtc1/sc22/wg21/docs/cwg_closed.html)
+- [*C++ standard draft sources*](https://github.com/cplusplus/draft)
+- C.Carruth et al. [*Goals and priorities for C++*](https://wg21.link/p2137) – WG21/P2137
 
 ### Pascal
 

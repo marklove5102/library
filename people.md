@@ -5,7 +5,9 @@
 - [Georgy Adelson-Velsky](#georgy-adelson-velsky)
 - [Howard Aiken](#howard-aiken)
 - [John Conway](#john-conway)
+- [Beman Dawes](#beman-dawes)
 - [Robert W Floyd](#robert-w-floyd)
+- [Steve Furber](#steve-furber)
 - [Margaret Hamilton](#margaret-hamilton)
 - [Alan Kay](#alan-kay)
 - [John Kemeny](#john-kemeny)
@@ -69,6 +71,15 @@
 
 - [*Inventing Game of Life*](https://www.youtube.com/watch?v=R9Plq-D1gEk) – Numberphile (2014)
 
+## Beman Dawes
+
+> Beman Dawes was a co-founder of the Boost C++ Libraries, an open-source collection of peer-reviewed C++ libraries. He served as Boost release manager for many years and was involved in organizing the Boost library review process. He also participated in ISO C++ standardization work and contributed to multiple Boost releases and infrastructure.
+
+:link:
+
+- [*In memoriam: Beman Dawes*](https://www.boost.org/doc/user-guide/in-memoriam-beman-dawes.html) (2020)
+- B.Stroustrup, H.Sutter. [*Remembering Beman Dawes*](https://isocpp.org/blog/2020/12/remembering-beman-dawes) (2020)
+
 ## Robert W Floyd
 
 :movie_camera:
@@ -78,6 +89,18 @@
 :page_facing_up:
 
 - Robert W. Floyd. [*The paradigms of programming*](https://dl.acm.org/doi/pdf/10.1145/359138.359140) – [Communications of the ACM **22**, 455](https://doi.org/10.1145/359138.359140) (1979)
+
+## Steve Furber
+
+> Stephen Byram Furber is an English computer scientist, mathematician and hardware engineer, and Emeritus ICL Professor of Computer Engineering in the Department of Computer Science at the University of Manchester, UK. He spent the 1980s at Acorn Computers, where he was a principal designer of the BBC Micro and the ARM 32-bit RISC microprocessor.
+
+:movie_camera:
+
+- [*An interview with Steve Furber*](https://www.youtube.com/watch?v=ZMEBj3FM2aw) – The Centre for Computing History (2009)
+
+:anchor:
+
+- [*Steve Furber*](https://en.wikipedia.org/wiki/Steve_Furber) – Wikipedia
 
 ## Margaret Hamilton
 

@@ -79,6 +79,7 @@
 
 :grey_question:
 
+- [*How to compare a `long long` with a `double`?*](https://stackoverflow.com/q/24347670) – Stack Overflow
 - [*How many unique values are there between 0 and 1 of a standard float?*](https://stackoverflow.com/q/17949796) – Stack Overflow
 - [*Why does IEEE 754 reserve so many NaN values?*](https://stackoverflow.com/q/19800415) – Stack Overflow
 - [*How many normalized numbers can be represented using IEEE-754 single precision?*](https://stackoverflow.com/q/12558780) – Stack Overflow
@@ -98,8 +99,9 @@ programming for games and science*](https://www.crcpress.com/GPGPU-Programming-f
 
 :movie_camera:
 
-- J.Farrier. [*Demystifying floating point*](https://www.youtube.com/watch?v=k12BJGSc2Nc) – CppCon (2015)
+- E.Suvorov. [*Using floating-point: What works, what breaks, and why*](https://www.youtube.com/watch?v=m83TjrB6wYw) – CppCon (2025)
 - J.Gustafson. [*Beating floats at their own game*](https://www.youtube.com/watch?v=N05yYbUZMSQ) – HPC Advisory Council Australia Conference (2017)
+- J.Farrier. [*Demystifying floating point*](https://www.youtube.com/watch?v=k12BJGSc2Nc) – CppCon (2015)
 
 :anchor:
 
@@ -141,6 +143,10 @@ programming for games and science*](https://www.crcpress.com/GPGPU-Programming-f
 :link:
 
 - C.Severance. [*An interview with the old man of floating-point*](https://people.eecs.berkeley.edu/~wkahan/ieee754status/754story.html) (1998)
+
+:movie_camera:
+
+- [*William Kahan on the 8087 and designing Intel’s floating point*](https://www.youtube.com/watch?v=3jddE24Ep54) – Turing Awardee Clips (2016)
 
 ---
 

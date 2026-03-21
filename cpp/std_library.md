@@ -15,6 +15,7 @@
 	- [`std::[stable_]partition`](#stdstable_partition)
 	- [`std::[transform_]exclusive_scan` / `std::[transform_]inclusive_scan`](#stdtransform_exclusive_scan--stdtransform_inclusive_scan)
 - [Concepts](#concepts)
+	- [`std::equality_comparable_with`](#stdequality_comparable_with)
 - [Containers](#containers)
 	- [Associative containers](#associative-containers)
 		- [`std::set`](#stdset)
@@ -74,6 +75,7 @@
 		- [`std::auto_ptr`](#stdauto_ptr)
 		- [`std::observer_ptr`](#stdobserver_ptr)
 		- [`std::out_ptr` and `std::inout_ptr` adaptors](#stdout_ptr-and-stdinout_ptr-adaptors)
+		- [Explicit lifetime management](#explicit-lifetime-management)
 - [Numerics](#numerics)
 	- [Bit manipulation functions](#bit-manipulation-functions)
 	- [`std::bit_cast`](#stdbit_cast)
@@ -265,6 +267,16 @@ See also [*Concepts* – Templates](templates.md#concepts).
 
 [*Why does `same_as` concept check type equality twice?*](https://stackoverflow.com/q/58509147) – Stack Overflow
 [*What is the difference between `std::default_initializable` and `std::is_default_constructible`?*](https://stackoverflow.com/q/62577956) – Stack Overflow
+
+### `std::equality_comparable_with`
+
+:link:
+
+- V.Falco. [*Ranges: When abstraction becomes obstruction*](https://www.vinniefalco.com/p/ranges-when-abstraction-becomes-obstruction) (2025)
+
+:grey_question:
+
+- [*Does `equality_­comparable_with` need to require `common_reference`?*](https://stackoverflow.com/q/61177302) – Stack Overflow
 
 ---
 
@@ -596,6 +608,7 @@ See also [*Local buffer optimization* – Patterns, idioms, and design principle
 
 :link:
 
+- V.Falco. [*The span reflex: When concrete thinking blocks compositional design*](https://www.vinniefalco.com/p/the-span-reflex-when-concrete-thinking) (2026)
 - A.O’Dwyer. [*`std::span` should have a converting constructor from `initializer_list`*](https://quuxplusone.github.io/blog/2021/10/03/p2447-span-from-initializer-list/) (2021)
 - B.Revzin. [*`span`: the best span*](https://brevzin.github.io/c++/2018/12/03/span-best-span/) (2018)
 - B.Revzin. [*Should span be regular?*](https://medium.com/@barryrevzin/should-span-be-regular-6d7e828dd44) (2018)
@@ -824,6 +837,7 @@ See also [*Iterator* – Patterns, idioms, and design principles](patterns_and_i
 
 :link:
 
+- V.Falco. [*Ranges: When abstraction becomes obstruction*](https://www.vinniefalco.com/p/ranges-when-abstraction-becomes-obstruction) (2025)
 - T.Brindle. [*Rvalue ranges and views in C++20*](https://tristanbrindle.com/posts/rvalue-ranges-and-views) (2020)
 
 :movie_camera:
@@ -1047,6 +1061,16 @@ See also [*Boost.SmartPtr* – Applications](applications.md#boostsmartptr).
 - [*`std::out_ptr_t`*](https://en.cppreference.com/w/cpp/memory/out_ptr_t) – C++ reference
 - [*`std::inout_ptr_t`*](https://en.cppreference.com/w/cpp/memory/inout_ptr_t) – C++ reference
 - J.Meneide, T.Buyukliev, I.Muerte. [*`out_ptr` – a scalable output pointer abstraction*](https://wg21.link/p1132) – WG21/P1132
+
+#### Explicit lifetime management
+
+:grey_question:
+
+- [*Implementation of `std::start_lifetime_as()`*](https://stackoverflow.com/q/76445860) – Stack Overflow
+
+:anchor:
+
+- [*`std::start_lifetime_as`, `std::start_lifetime_as_array`*](https://en.cppreference.com/w/cpp/memory/start_lifetime_as.html) – C++ reference
 
 ---
 
@@ -1484,6 +1508,10 @@ See also [*Type erasure* – Patterns, idioms, and design principles](patterns_a
 ---
 
 ## Filesystem
+
+:link:
+
+- V.Falco. [*The evolution of `std::filesystem` through WG21*](https://www.vinniefalco.com/p/the-evolution-of-stdfilesystem-through) (2025)
 
 :grey_question:
 

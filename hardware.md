@@ -8,8 +8,10 @@
   - [BESM-6](#besm-6)
   - [BBC B](#bbc-b)
 - [CPUs](#cpus)
-  - [Intel 8086 CPU](#intel-8086-cpu)
-  - [Intel 80386 CPU](#intel-80386-cpu)
+  - [Intel x86 architecture](#intel-x86-architecture)
+    - [Intel 8086 CPU](#intel-8086-cpu)
+    - [Intel 80386 CPU](#intel-80386-cpu)
+  - [ARM](#arm)
   - [MOS 6502 CPU](#mos-6502-cpu)
 - [Flash memory](#flash-memory)
 - [Interfaces](#interfaces)
@@ -54,17 +56,26 @@
 
 ## CPUs
 
-### Intel 8086 CPU
+### Intel x86 architecture
+
+#### Intel 8086 CPU
 
 :link:
 
 - K.Shirriff. [*A bug fix in the 8086 microprocessor, revealed in the die’s silicon*](https://www.righto.com/2022/11/a-bug-fix-in-8086-microprocessor.html) (2022)
 
-### Intel 80386 CPU
+#### Intel 80386 CPU
 
 :link:
 
 - K.Shirriff. [*Examining the silicon dies of the Intel 386 processor*](https://www.righto.com/2023/10/intel-386-die-versions.html) (2023)
+
+### ARM
+
+:movie_camera:
+
+- T.Petazzoni. [*A tour of the ARM architecture and its Linux support*](https://www.youtube.com/watch?v=NNol7fRGo2E) – Linux Conf (2017)
+- S.Furber. [*ARM processor: Sowing the seeds of success*](https://www.youtube.com/watch?v=1jOJl8gRPyQ) – Computerphile (2015)
 
 ### MOS 6502 CPU
 

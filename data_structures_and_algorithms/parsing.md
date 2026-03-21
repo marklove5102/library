@@ -9,6 +9,7 @@
 - [Compilers](#compilers)
 	- [Introduction and overview](#introduction-and-overview)
 	- [Optimizations](#optimizations)
+		- [Instruction scheduling](#instruction-scheduling)
 
 ---
 
@@ -49,6 +50,14 @@ See also [*Optimizations* – Hardware, optimization, and OS internals](../cpp/o
 
 ### Optimizations
 
-See also
+<!-- See also -->
 
-- G.Horv&aacute;th. [*Algorithms from a compiler developer’s toolbox*](https://www.youtube.com/watch?v=eeS1WP7FK-A) – C++Now (2021
+:movie_camera:
+
+- G.Horv&aacute;th. [*Algorithms from a compiler developer’s toolbox*](https://www.youtube.com/watch?v=eeS1WP7FK-A) – C++Now (2021)
+
+#### Instruction scheduling
+
+:movie_camera:
+
+- J.Absar, F.Hahn. [*Writing great machine schedulers*](https://www.youtube.com/watch?v=eeS1WP7FK-A) – LLVM Developers’ Meeting (2017)

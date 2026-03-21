@@ -2,6 +2,7 @@
 
 ## Table of contents <!-- omit in toc -->
 
+- [Introduction](#introduction)
 - [Performance and optimization](#performance-and-optimization)
 	- [Branch prediction](#branch-prediction)
 		- [`[[likely]]` / `[[unlikely]]` attributes](#likely--unlikely-attributes)
@@ -31,6 +32,12 @@
 - [Interaction with hardware](#interaction-with-hardware)
 
 ---
+
+## Introduction
+
+:movie_camera:
+
+- D.Gross. [*When nanoseconds matter: Ultrafast trading systems in C++*](https://www.youtube.com/watch?v=sX2nF1fW7kI) – CppCon (2024)
 
 ## Performance and optimization
 

@@ -27,6 +27,7 @@
 		- [Lock-free queues (FIFO)](#lock-free-queues-fifo)
 	- [POSIX threads](#posix-threads)
 	- [Coroutines](#coroutines)
+		- [Coroutines and the standard library](#coroutines-and-the-standard-library)
 	- [Executors](#executors)
 	- [Concurrency patterns](#concurrency-patterns)
 - [GPU computing](#gpu-computing)
@@ -38,10 +39,6 @@
 :link:
 
 - B.Barney. [*Introduction to parallel computing*](https://computing.llnl.gov/tutorials/parallel_comp/) – Lawrence Livermore National Laboratory
-
-:movie_camera:
-
-- D.Gross. [*When nanoseconds matter: Ultrafast trading systems in C++*](https://www.youtube.com/watch?v=sX2nF1fW7kI) – CppCon (2024)
 
 ---
 
@@ -57,6 +54,7 @@
 
 :movie_camera:
 
+- S.Fuhrmann. [*Speed for free: Current state of auto vectorizing compilers*](https://www.youtube.com/watch?v=m2vVWkFsrM0) – Meeting C++ (2025)
 - B.Steagall. [*Adventures in SIMD-thinking*](https://www.youtube.com/watch?v=1FPobiebZLE) – CppNow (2021)
 - B.Steagall. *Adventures in SIMD-thinking* [Part I](https://www.youtube.com/watch?v=qejTqnxQRcw), [Part II](https://www.youtube.com/watch?v=qXleSwCCEvY) – CppCon (2020)
 
@@ -104,12 +102,19 @@
 
 :link:
 
+- D.Howells, et al. [*Linux kernel memory barries*](https://www.kernel.org/doc/Documentation/memory-barriers.txt)
+- D.Howells, et al. [*Relaxed-memory concurrency*](https://www.cl.cam.ac.uk/~pes20/weakmemory/index.html)
+
+:grey_question:
+
 - [*C++11 introduced a standardized memory model. What does it mean? And how is it going to affect C++ programming?*](https://stackoverflow.com/q/6319146) – Stack Overflow
 
 :movie_camera:
 
 - A.S.Knatten. [*The two memory models*](https://www.youtube.com/watch?v=iEd9_ilEgdg) – Meeting C++ (2025)
 - J.Machutov&aacute;. [*Memory model: Get your shared data under control*](https://www.youtube.com/watch?v=L5RCGDAan2Y) – C++ Meeting (2023)
+- A.Norberg. [*The C++ memory model: An intuition*](https://www.youtube.com/watch?v=OyNG4qiWnmU) – StockholmCpp (2019)
+- P.E.McKenney. [*Linux-kernel memory ordering: Help arrives at last!*](https://www.youtube.com/watch?v=ULFytshTvIY) – Linux Conf (2017)
 - R.Grimm. [*The C++ memory model*](https://www.youtube.com/watch?v=j7S0j0qnsTg) – Meeting C++ (2016)
 - M.Wong. [*C++11/14/17 atomics and memory model: Before the story consumes you*](https://www.youtube.com/watch?v=DS2m7T6NKZQ) – CppCon (2015)
 - V.Ziegler. [*The C++ memory model*](https://www.youtube.com/watch?v=gpsz8sc6mNU) – Meeting C++ (2014)
@@ -332,7 +337,14 @@ https://www.hpl.hp.com/techreports/2004/HPL-2004-209.pdf
 :movie_camera:
 
 - R.Barkan. [*Coroutine intuition in C++*](https://www.youtube.com/watch?v=2jzuuOeUDQI) – C++ on Sea (2023)
+- A.Fertig. [*C++20’s coroutines for beginners*](https://www.youtube.com/watch?v=8sEe-4tig_A) – CppCon (2022)
 - J.McNellis. [*Introduction to C++ coroutines*](https://www.youtube.com/watch?v=ZTqHjjm86Bw) – CppCon (2016)
+
+#### Coroutines and the standard library
+
+:movie_camera:
+
+- M.Josuttis. [*C++23: using `std::generator` in practice*](https://www.youtube.com/watch?v=Qpj9fVOoVAk) – Meeting C++ (2025)
 
 ### Executors
 
