@@ -2,10 +2,10 @@
 
 ## Table of contents <!-- omit in toc -->
 
-- [Types design](#types-design)
+- [Type design](#type-design)
 	- [Affine space types](#affine-space-types)
-- [Algorithms design](#algorithms-design)
-	- [Generic algorithms design](#generic-algorithms-design)
+- [Algorithm design](#algorithm-design)
+	- [Generic algorithm design](#generic-algorithm-design)
 - [Complexity analysis](#complexity-analysis)
 	- [Amortized analysis](#amortized-analysis)
 - [Loop invariants](#loop-invariants)
@@ -14,7 +14,7 @@
 
 ---
 
-## Types design
+## Type design
 
 :movie_camera:
 
@@ -33,9 +33,9 @@
 - A.Shavit, B.Fahller. [*The curiously recurring pattern of coupled types*](https://www.youtube.com/watch?v=msi4WNQZyWs) – NDC (2019)
 - A.Shavit, B.Fahller: [*The Curiously Recurring Pattern of Coupled Types*](https://www.youtube.com/watch?v=EhlYsKnAmjs) – StockholmCpp (2018)
 
-## Algorithms design
+## Algorithm design
 
-### Generic algorithms design
+### Generic algorithm design
 
 :movie_camera:
 

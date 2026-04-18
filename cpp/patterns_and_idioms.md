@@ -623,6 +623,7 @@ For exceptions in destructors, see [*Destructors*](#destructors).
 :link:
 
 - A.Fertig. [*When an empty destructor is required*](https://andreasfertig.blog/2023/12/when-an-empty-destructor-is-required/) (2023)
+- B.Stanimirov. [*Don’t use `unique_ptr` for PIMPL*](https://ibob.bg/blog/2019/11/07/dont-use-unique_ptr-for-pimpl/) (2019)
 - A.Mertz. [*The pImpl idiom*](https://arne-mertz.de/2019/01/the-pimpl-idiom/) (2019)
 
 :grey_question:

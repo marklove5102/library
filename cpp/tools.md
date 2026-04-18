@@ -23,7 +23,7 @@
 	- [GDB](#gdb)
 		- [Pretty printers](#pretty-printers)
 - [AI tools](#ai-tools)
-- [C++ tests and quizes](#c-tests-and-quizes)
+- [C++ tests and quizzes](#c-tests-and-quizzes)
 
 ---
 
@@ -237,7 +237,7 @@ See also [*Libraries* – Assembly, low-level programming, and OS internals](../
 
 ---
 
-## C++ tests and quizes
+## C++ tests and quizzes
 
 :link:
 

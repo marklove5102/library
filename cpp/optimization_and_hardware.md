@@ -17,11 +17,11 @@
 	- [Floating-point arithmetic](#floating-point-arithmetic)
 	- [Integral arithmetic](#integral-arithmetic)
 		- [Integral multiplication](#integral-multiplication)
-		- [Integeral division](#integeral-division)
+		- [Integral division](#integral-division)
 		- [Signed and unsigned types](#signed-and-unsigned-types)
 	- [Empty base class optimization (EBO)](#empty-base-class-optimization-ebo)
 	- [Return value optimization and copy elision](#return-value-optimization-and-copy-elision)
-	- [Tail call optimisation](#tail-call-optimisation)
+	- [Tail call optimization](#tail-call-optimization)
 	- [Virtual functions](#virtual-functions)
 		- [Devirtualization](#devirtualization)
 	- [Undefined behavior](#undefined-behavior)
@@ -59,7 +59,7 @@ See also [*Optimizations* – Compilers](../data_structures_and_algorithms/parsi
 
 - M.Godbolt. [*What every programmer should know about how CPUs work*](https://www.youtube.com/watch?v=-HNpim5x-IE) – GOTO (2024)
 - A.Lachmish. [*Algorithmic complexity, data locality, parallelism, and compiler optimizations, seasoned with some concurrency*](https://www.youtube.com/watch?v=0iXRRCnurvo) – CppCon (2022)
-- J.Bielak. [*The most important otimizations to apply in your C++ programs*](https://www.youtube.com/watch?v=qCjEN5XRzHc) – CppCon (2022)
+- J.Bielak. [*The most important optimizations to apply in your C++ programs*](https://www.youtube.com/watch?v=qCjEN5XRzHc) – CppCon (2022)
 - A.Alexandrescu. [*Speed is found in the minds of people*](https://www.youtube.com/watch?v=FJJTYQYB1JQ) – CppCon (2019)
 - H.Matthews. [*Optimising a small real-world C++ application*](https://www.youtube.com/watch?v=fDlE93hs_-U) – ACCU (2019)
 - H.Matthews. [*Optimising a small real-world C++ application*](https://www.youtube.com/watch?v=IGFBCvroXJ8) – NDC (2018)
@@ -209,7 +209,7 @@ See also [*Type-punning* – Core language](core_language.md#type-punning).
 
 - [*Why is `imul` used for multiplying unsigned numbers?*](https://stackoverflow.com/q/42587607) – Stack Overflow
 
-#### Integeral division
+#### Integral division
 
 :link:
 
@@ -275,7 +275,7 @@ See also [*Type-punning* – Core language](core_language.md#type-punning).
 
 - [*Copy elision*](https://en.cppreference.com/w/cpp/language/copy_elision) – C++ reference
 
-### Tail call optimisation
+### Tail call optimization
 
 :link:
 

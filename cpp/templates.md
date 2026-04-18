@@ -129,6 +129,7 @@ See also [*Concepts* – The standard library and proposals](core_language.md#co
 
 :link:
 
+- B.Stanimirov. [*Concepts, partial specialization, and forward declarations*](https://ibob.bg/blog/2025/02/20/concepts-specialization-fwd-decl/) (2025)
 - A.Krzemieński. [*Concepts – case studies*](https://akrzemi1.wordpress.com/2021/09/16/concepts-case-studies/) (2021)
 - A.Krzemieński. [*Semantic requirements in concepts*](https://akrzemi1.wordpress.com/2020/10/26/semantic-requirements-in-concepts/) (2020)
 - A.Sutton. [*Defining concepts*](https://accu.org/journals/overload/24/131/sutton_2198/) – [Overload **131**](https://accu.org/journals/overload/overload131) (2016)

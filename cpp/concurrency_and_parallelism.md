@@ -26,10 +26,10 @@
 		- [Read-copy-update (RCU)](#read-copy-update-rcu)
 		- [Lock-free queues (FIFO)](#lock-free-queues-fifo)
 	- [POSIX threads](#posix-threads)
-	- [Coroutines](#coroutines)
-		- [Coroutines and the standard library](#coroutines-and-the-standard-library)
 	- [Executors](#executors)
 	- [Concurrency patterns](#concurrency-patterns)
+- [Coroutines](#coroutines)
+	- [Coroutines and the standard library](#coroutines-and-the-standard-library)
 - [GPU computing](#gpu-computing)
 
 ---
@@ -102,7 +102,7 @@
 
 :link:
 
-- D.Howells, et al. [*Linux kernel memory barries*](https://www.kernel.org/doc/Documentation/memory-barriers.txt)
+- D.Howells, et al. [*Linux kernel memory barriers*](https://www.kernel.org/doc/Documentation/memory-barriers.txt)
 - D.Howells, et al. [*Relaxed-memory concurrency*](https://www.cl.cam.ac.uk/~pes20/weakmemory/index.html)
 
 :grey_question:
@@ -332,30 +332,58 @@ http://www.drdobbs.com/parallel/volatile-vs-volatile/212701484
 https://www.hpl.hp.com/techreports/2004/HPL-2004-209.pdf
 -->
 
-### Coroutines
-
-:movie_camera:
-
-- R.Barkan. [*Coroutine intuition in C++*](https://www.youtube.com/watch?v=2jzuuOeUDQI) – C++ on Sea (2023)
-- A.Fertig. [*C++20’s coroutines for beginners*](https://www.youtube.com/watch?v=8sEe-4tig_A) – CppCon (2022)
-- J.McNellis. [*Introduction to C++ coroutines*](https://www.youtube.com/watch?v=ZTqHjjm86Bw) – CppCon (2016)
-
-#### Coroutines and the standard library
-
-:movie_camera:
-
-- M.Josuttis. [*C++23: using `std::generator` in practice*](https://www.youtube.com/watch?v=Qpj9fVOoVAk) – Meeting C++ (2025)
-
 ### Executors
 
 :movie_camera:
 
 - E.Niebler. *Working with asynchrony generically: A tour of C++ executors*. [Part I](https://www.youtube.com/watch?v=xLboNIf7BTg), [Part II](https://www.youtube.com/watch?v=6a0zzUBUNW4) – CppCon (2021)
-- D.Vollmann. [*Executors for C++ – A Long story ...*](https://www.youtube.com/watch?v=sAJGoHN6Xx8) – CppCon (2015)
+- D.Vollmann. [*Executors for C++ – A Long story...*](https://www.youtube.com/watch?v=sAJGoHN6Xx8) – CppCon (2015)
 
 ### Concurrency patterns
 
 See [*Concurrency patterns* – Patterns, idioms, and design principles](patterns_and_idioms.md#concurrency-patterns).
+
+---
+
+## Coroutines
+
+:link:
+
+- D.Mazi&egrave;res. [*My tutorial and take on C++20 coroutines*](https://www.scs.stanford.edu/~dm/blog/c++-coroutines.html) (2021)
+
+:movie_camera:
+
+- P.Nash. [*C++ coroutines: Gods from the machine*](https://www.youtube.com/watch?v=b6pYieNd_OY) – ACCU (2025)
+- R.Barkan. [*Coroutine intuition in C++*](https://www.youtube.com/watch?v=2jzuuOeUDQI) – C++ on Sea (2023)
+- P.Nash. [*C++ coroutines, from scratch*](https://www.youtube.com/watch?v=EGqz7vmoKco) – CppCon (2022)
+- A.Fertig. [*C++20’s coroutines for beginners*](https://www.youtube.com/watch?v=8sEe-4tig_A) – CppCon (2022)
+- A.Weis. [*Deciphering C++ coroutines: A visual approach*](https://www.youtube.com/watch?v=J7fYddslH0Q) – CppCon (2022)
+- J.McNellis. [*Introduction to C++ coroutines*](https://www.youtube.com/watch?v=ZTqHjjm86Bw) – CppCon (2016)
+
+### Coroutines and the standard library
+
+:movie_camera:
+
+- M.Josuttis. [*C++23: using `std::generator` in practice*](https://www.youtube.com/watch?v=Qpj9fVOoVAk) – Meeting C++ (2025)
+
+### Generators
+
+:movie_camera:
+
+- P.Novikov. *Understanding C++ coroutines by example: Generators.* [Part I](https://www.youtube.com/watch?v=lm10Cj-HNKQ), [Part II](https://www.youtube.com/watch?v=lz3F036_OvU) – CppCon (2022)
+
+### Asynchronous I/O
+
+:movie_camera:
+
+- B.Fahller. [*Asynchronous I/O and coroutines for smooth data streaming*](https://www.youtube.com/watch?v=54oGgmMAUNk) – ACCU (2022)
+- B.Fahller. [*Asynchronous I/O and coroutines for smooth data streaming*](https://www.youtube.com/watch?v=uPJFj3b8RN0) – NDC TechTown (2021)
+
+### Exceptions
+
+:link:
+
+- B.Stanimirov. [*Throwing exceptions from coroutines*](https://ibob.bg/blog/2024/10/06/coro-throw/) (2024)
 
 ---
 

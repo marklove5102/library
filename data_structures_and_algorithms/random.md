@@ -3,7 +3,7 @@
 ## Table of contents <!-- omit in toc -->
 
 - [Probability theory](#probability-theory)
-- [Random numbers generation](#random-numbers-generation)
+- [Random number generation](#random-number-generation)
 - [Distributions](#distributions)
 	- [Uniform distribution](#uniform-distribution)
 	- [Normal distribution](#normal-distribution)
@@ -27,9 +27,9 @@
 
 ---
 
-## Random numbers generation
+## Random number generation
 
-For cryptographically secure random number generation see [*Random numbers generation* – Cryptographic algorithms and data structures](cryptographic.md#random-numbers-generation).
+For cryptographically secure random number generation see [*Random number generation* – Cryptographic algorithms and data structures](cryptographic.md#random-number-generation).
 
 :link:
 

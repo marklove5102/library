@@ -6,7 +6,7 @@
 - [Hashing](#hashing)
 	- [Hash functions](#hash-functions)
 	- [Password hashing](#password-hashing)
-- [Random numbers generation](#random-numbers-generation)
+- [Random number generation](#random-number-generation)
 	- [Potential problems](#potential-problems)
 		- [Debian OpenSSL bug](#debian-openssl-bug)
 		- [Dual\_EC\_DRBG backdoor](#dual_ec_drbg-backdoor)
@@ -37,7 +37,7 @@
 
 ---
 
-## Random numbers generation
+## Random number generation
 
 ### Potential problems
 

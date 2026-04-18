@@ -642,6 +642,10 @@ See also [*Local buffer optimization* – Patterns, idioms, and design principle
 
 > Transparent comparators make it possible to avoid constructing an object of the type `key_type` to do the lookup using member functions like `find`, `lower_bound`, etc.
 
+:link:
+
+- B.Stanimirov. [*Transparent lookups for maps and sets*](https://ibob.bg/blog/2022/09/17/transparent-lookups-for-maps-and-sets/) (2022)
+
 :grey_question:
 
 - [*What are transparent comparators?*](https://stackoverflow.com/q/20317413) – Stack Overflow
@@ -977,8 +981,9 @@ See also [*Boost.SmartPtr* – Applications](applications.md#boostsmartptr).
 
 :link:
 
-- A.Williams. [*`std::shared_ptr`’s secret constructor*](https://www.justsoftwaresolutions.co.uk/cplusplus/shared-ptr-secret-constructor.html) (2015)
+- B.Stanimirov. [*Don’t use `shared_ptr`’s aliasing constructor*](https://ibob.bg/blog/2022/12/28/dont-use-shared_ptr-aliasing-ctor/) (2022)
 - H.Kumar. [*`shared_ptr` initialized with `nullptr` is null or empty?*](https://www.nextptr.com/question/qa1372136808/shared_ptr-initialized-with-nullptr-is-null-or-empty) (2020)
+- A.Williams. [*`std::shared_ptr`’s secret constructor*](https://www.justsoftwaresolutions.co.uk/cplusplus/shared-ptr-secret-constructor.html) (2015)
 
 :grey_question:
 
@@ -1369,6 +1374,7 @@ Integer comparison functions `std::cmp_equal`, `std::cmp_not_equal`, `std::cmp_l
 :link:
 
 - A.Krzemieński. [*A moved-from optional*](https://akrzemi1.wordpress.com/2022/09/06/a-moved-from-optional/) (2022)
+- B.Stanimirov. [*The case for `std::optional` of reference types and `void`*](https://ibob.bg/blog/2022/09/04/the-case-for-optional-ref-and-void/) (2022)
 - B.Filipek. [*Using C++17 `std::optional`*](https://www.bfilipek.com/2018/05/using-optional.html) (2018)
 - B.Filipek. [*Error handling and `std::optional`*](https://www.bfilipek.com/2018/05/errors-and-optional.html) (2018)
 - B.Filipek. [*In-place construction for `std::any`, `std::variant` and `std::optional`*](https://www.bfilipek.com/2018/07/in-place-cpp17.html) (2018)
